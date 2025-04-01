@@ -1,0 +1,32 @@
+/* ...existing code... */
+
+.participant-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.participant-info h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.participant-info p {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Optional: Add a dark mode toggle */
+body.dark-mode .participant-info {
+    background-color: #333;
+    color: #fff;
+    border-color: #555;
+}
