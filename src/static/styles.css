@@ -91,6 +91,11 @@ section h3 {
   color: #1a237e;
 }
 
+.activity-card ul li:hover {
+  color: #0066cc;
+  font-weight: bold;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
