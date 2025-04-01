@@ -84,6 +84,11 @@ section h3 {
 .activity-card ul li {
   margin-bottom: 5px;
   font-size: 14px;
+  line-height: 1.4;
+}
+
+.activity-card ul li::marker {
+  color: #1a237e;
 }
 
 .form-group {
